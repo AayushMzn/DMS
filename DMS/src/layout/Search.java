@@ -5,19 +5,16 @@
  */
 package layout;
 
-import javax.swing.JPanel;
-import javax.swing.JTextArea;
-
 /**
  *
  * @author Aayush
  */
-public class Document extends javax.swing.JPanel {
+public class Search extends javax.swing.JPanel {
 
     /**
-     * Creates new form Document
+     * Creates new form Search
      */
-    public Document() {
+    public Search() {
         initComponents();
     }
 
@@ -30,35 +27,21 @@ public class Document extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jTabbedPane1 = new javax.swing.JTabbedPane();
-
-        setPreferredSize(new java.awt.Dimension(544, 400));
-
-        JTextArea ta=new JTextArea(200,200);
-        JPanel p1=new JPanel();
-        p1.add(ta);
-        JPanel p2=new JPanel();
-        JPanel p3=new JPanel();
-
-        jTabbedPane1.setBounds(50,50,200,200);
-        jTabbedPane1.add("main",p1);
-        jTabbedPane1.add("visit",p2);
-        jTabbedPane1.add("help",p3);
+        setBackground(new java.awt.Color(255, 51, 51));
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(this);
         this.setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 544, Short.MAX_VALUE)
+            .addGap(0, 400, Short.MAX_VALUE)
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 400, Short.MAX_VALUE)
+            .addGap(0, 300, Short.MAX_VALUE)
         );
     }// </editor-fold>//GEN-END:initComponents
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JTabbedPane jTabbedPane1;
     // End of variables declaration//GEN-END:variables
 }
